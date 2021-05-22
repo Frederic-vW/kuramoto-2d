@@ -53,11 +53,6 @@ The main function call running the simulation is: `kuramoto2d(N, T, t0, dt, s, K
 
 **Outputs:** `(T,N,N)` array as NumPy .npy format and as .mp4 movie.
 
-Examples 1, 2 use
-- `stim = [ [[25,50], [1,N], [3,8]], [[130,150], [n_2-2,n_2+2], [10,25]] ]`
-- `blocks = [ [[2*n_4,3*n_4], [15,20]], [[2*n_4+10,3*n_4+10], [40,45]] ]`
-where `n_2` is the (rounded) integer `N/2`, `n_4` is the (rounded) integer `N/4`.
-
 ### Example-1
 Parameters:  
 `N = 128, T = 3000, t0 = 0, dt = 0.05, s = 0.2, K0 = 0.5, K1 = 4.0, sd_omega = 0.25`
