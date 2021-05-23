@@ -1,8 +1,6 @@
 # Kuramoto lattice model in *Python* and *julia*
 
-<!--
-[![DOI](zenodo.4771538.svg)](https://zenodo.org/badge/latestdoi/359287694)
--->
+[![DOI](zenodo.4781777.svg)](https://doi.org/10.5281/zenodo.4781777)
 
 This repo contains implementations of the Kuramoto coupled oscillator model on a 2D lattice.  
 The code is available in Python and Julia.  
